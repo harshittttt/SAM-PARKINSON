@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.home-main{
+    height: 100vh;
+    background-color:aquamarine;
+}
+
+/* Navigation Bar */
+.full-nav{
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+.full-nav a{
+    color:black;
+    font-weight: 600;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+}
+.full-nav:hover{
+    background-color: white;
+    color:black;
+}
+.full-nav:hover .full-nav a{
+    background-color: white;
+    color:black;
+}
+/* Navbar-1 */
+
+.nav-1-content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-1-search, .nav-1-name, .nav-1-right{
+    min-width: 8em;
+}
+.nav-1-name{
+    font-size: 1.8rem;
+    letter-spacing: .025rem;
+    line-height:4rem;
+    font-weight: 600;
+
+}
+
+
+.nav-1-right ul{
+    display: flex;
+    /* padding-top: 0.4em; */
+}
+
+.nav-1-right li{
+    padding-right: 0.8em;
+}
+
+
+
+/* Navbar-2 */
+
+.navbar-2{
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-2 ul li{
+    padding-bottom: 0.125rem;
+    font-size: .8125rem;
+    font-weight: 700;
+    letter-spacing: .058125rem;
+    line-height: 1;
+    transition: 0.5s;
+    margin-right: 1.4em;
+    border-bottom: 2px solid transparent;
+}
+.navbar-2 ul li:hover{
+    border-bottom: 2px solid black;
+}
+.navbar-2 ul li a{
+    font-weight: 700;
+}

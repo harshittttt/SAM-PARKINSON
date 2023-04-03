@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>cart</title>
+  <link rel="icon" href="content/3.png" type="image/icon type">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Libre+Baskerville&family=Nanum+Gothic&family=Square+Peg&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nanum+Gothic&family=Square+Peg&display=swap"
+    rel="stylesheet">
+<!-- CSS only -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+      <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basket</title>
+</head>
+
+<body>
+    <p id="free_shipping">
+        Free shipping on all orders
+    </p>
+    <p id="free_returns">
+        Free 30 Days Returns
+    </p>
+
+    <nav onmouseenter="func1()" onmouseleave="func2()" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand nav-link link-light" href="/index.html">Sam Parkinson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item d">
+                        <a class="nav-link d-btn link-light" href="women.html">Women</a>
+                        <div class="d-content">
+                            <div class="row">
+                                <div class="column">
+                                  <a class="nav-link d-btn link-light" href="women.html">Women</a>
+                                  <div class="d-content">
+                                      <div class="row">
+                                          <div class="column">
+                                              <a href="women.html">
+                                                  <h3>Veiw All</h3>
+                                              </a>
+                                              <a href="shoulderBag.html">Shoulder Bags</a>
+                                              <a href="womenBags.html#slings">Slings</a>
+                                              <a href="totes.html">Totes</a>
+                                              <a href="womenBags.html#wallets">Walllets</a>
+                                          </div>
+                                          <div class="column">
+                                              <a href="womenBags.html">
+                                                  <h3>Women Essentials</h3>
+                                              </a>
+                                              <a href="women.html#second">Best Sellers</a>
+                                              <a href="womenBags.html#trending">Trending</a>
+                                              <a href="totes.html">Daily Usage</a>
+                                          </div>
+                                             <div class="column">
+                                                 <center><img src="content/drop_down_women.webp" alt=""></center>
+                                                 <a href="women.html">Women</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d">
+                      <a class="nav-link d-btn link-light" href="men.html">Men</a>
+                      <div class="d-content">
+                          <div class="row">
+                              <div class="column">
+                                  <a href="men.html">
+                                      <h3>Veiw All</h3>
+                                  </a>
+                                  <a href="men.html">Wallets</a>
+                                  <a href="men.html">Man Slings</a>
+                                  <a href="men.html">Back Packs</a>
+                                  <a href="men.html">Computer Bags</a>
+                              </div>
+                              <div class="column">
+                                  <a href="men.html">
+                                      <h3>Men Essentials</h3>
+                                  </a>
+                                  <a href="men.html">Best Sellers</a>
+                                  <a href="men.html">Trending</a>
+                                  <a href="men.html">Daily Usage</a>
+                              </div>
+                              <div class="column">
+                                  <center><img src="content/drop_down_men.webp" alt=""></center>
+                                  <a href="men.html">Men</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                  
+                    <li class="nav-item d">
+                        <a class="nav-link d-btn link-light" href="#">Special</a>
+                        <div class="d-content">
+                            <div class="row">
+                                <div class="column">
+                                    <a href="">
+                                        <h3>Veiw All</h3>
+                                    </a>
+                                    <a href="">Gift Packs</a>
+                                    <a href="">Duo</a>
+                                    <a href="">Sale</a>
+                                    <a href="">End Of Season</a>
+                                </div>
+                                <div class="column">
+                                    <a href="">
+                                        <h3>Type/Material</h3>
+                                    </a>
+                                    <a href="">Leathers</a>
+                                    <a href="">Metal</a>
+                                    <a href="">Satin</a>
+                                    <a href="">Sparkle</a>
+                                </div>
+                                <div class="column">
+                                    <center><img src="content/drop_down_gift.webp" alt=""></center>
+                                    <a href="">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <li class="nav-item d">
+
+                          <a class="nav-link d-btn link-light" href="#">Sale</a>
+                          
+                      </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <img onmouseover="func_search()" onmouseout="func_change()" id="search"
+                        src="https://img.icons8.com/ios-glyphs/30/FFFFFF/search--v1.png" />
+                    <img onmouseover="func_heart()" onmouseout="func_change()" id="heart"
+                        src="https://img.icons8.com/material-outlined/24/FFFFFF/like--v1.png" />
+                    <a href="login.html"><img onmouseover="func_user()" onmouseout="func_change()" id="user"
+                        src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/user.png" /></a>
+                   <a href="cart.html"> <img onmouseover="func_cart()" onmouseout="func_change()" id="cart"
+                        src="https://img.icons8.com/material-outlined/24/FFFFFF/shopping-cart--v1.png" /></a>
+                </form>
+            </div>
+        </div>
+    </nav>
+  <main>
+
+    <div class="basket">
+      <div class="basket-module">
+        <label for="promo-code">Enter a promotional code</label>
+        <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+        <button class="promo-code-cta">Apply</button>
+      </div>
+      <div class="basket-labels">
+        <ul>
+          <li class="item item-heading">Item</li>
+          <li class="price">Price</li>
+          <li class="quantity">Quantity</li>
+          <li class="subtotal">Subtotal</li>
+        </ul>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="content/715666_AAA0O_9041_001_082_0000_Light-Medium-canvas-top-handle-bag.avif" alt="Placholder Image 2" class="product-frame">
+          </div>
+          <div class="product-details">
+            <h1><strong><span class="item-quantity">4</span> x Eliza J</strong> Hand Bag</h1>
+            <p><strong>White, Size 18</strong></p>
+            <p>Product Code - 232321939</p>
+          </div>
+        </div>
+        <div class="price">200.00</div>
+        <div class="quantity">
+          <input type="number" value="4" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">800.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="content/715772_FAARB_1041_001_068_0000_Light-Small-canvas-top-handle-bag.avif" alt="Placholder Image 2" class="product-frame">
+          </div>
+          <div class="product-details">
+            <h1><strong><span class="item-quantity">1</span> x Whistle</strong> Aer Bag</h1>
+            <p><strong>Brown, Size 10</strong></p>
+            <p>Product Code - 232321939</p>
+          </div>
+        </div>
+        <div class="price">150.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">150.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+    </div>
+    <aside>
+      <div class="summary">
+        <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+        <div class="summary-subtotal">
+          <div class="subtotal-title">Subtotal</div>
+          <div class="subtotal-value final-value" id="basket-subtotal">950.00</div>
+          <div class="summary-promo hide">
+            <div class="promo-title">Promotion</div>
+            <div class="promo-value final-value" id="basket-promo"></div>
+          </div>
+        </div>
+        <div class="summary-delivery">
+          <select name="delivery-collection" class="summary-delivery-selection">
+              <option value="0" selected="selected">Select Collection or Delivery</option>
+             <option value="collection">Collection</option>
+             <option value="first-class">Royal Mail 1st Class</option>
+             <option value="second-class">Royal Mail 2nd Class</option>
+             <option value="signed-for">Royal Mail Special Delivery</option>
+          </select>
+        </div>
+        <div class="summary-total">
+          <div class="total-title">Total</div>
+          <div class="total-value final-value" id="basket-total">950.00</div>
+        </div>
+        <div class="summary-checkout">
+          <button class="checkout-cta">Go to Secure Checkout</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+
+  <div>
+    <section class="footer-section">
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 about">
+                        <h6>About</h6>
+                        <p class="text-justify about-content">Sam Parkinson, established in 1978 is a premium seller of luxury handbags. Over the decades we have worked hard 
+                          to provise our customers the best products and will continue to do so.
+                      </p>
+                  </div>
+           
+                  <div class="col-6 col-md-4">
+                      <h6>Categories</h6>
+                      <ul class="footer-links ">
+                          <li><a href="shoulderBag.html">Shoulder Bags</a></li>
+                          <li><a href="women.html">Sling Bags</a></li>
+                          <li><a href="women.html">Wallets</a></li>
+                          <li><a href="womenBags.html">Purses</a></li>
+                          <li><a href="totes.html">Totes</a></li>
+                          <li><a href="men.html">Men Bags</a></li>
+                      </ul>
+                  </div>
+
+                    <div class="col-6 col-md-4">
+                        <h5 class="stayupdated">Stay Updated</h5>
+                        <h6 class="newsletter">Newsletter</h6>
+                        <p class="news-p">Get the latest launches and event updates directly in your inbox,sign up
+                            to our newsletter:</p>
+                        <div class="news-input">
+                            <input type="text">
+                            <img src="https://img.icons8.com/material/24/000000/mail.png" />
+                        </div>
+                    </div>
+                </div>
+                <hr class="small">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-12">
+                        <p class="copyright-text">Copyright © 2022 All Rights Reserved by
+                            <a href="#">Sam Parkinson</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</div>
+
+
+</body>
+
+</html>
+<script>
+    var promoCode;
+var promoPrice;
+var fadeTime = 300;
+
+/* Assign actions */
+$('.quantity input').change(function() {
+  updateQuantity(this);
+});
+
+$('.remove button').click(function() {
+  removeItem(this);
+});
+
+$(document).ready(function() {
+  updateSumItems();
+});
+
+$('.promo-code-cta').click(function() {
+
+  promoCode = $('#promo-code').val();
+
+  if (promoCode == '10off' || promoCode == '10OFF') {
+    //If promoPrice has no value, set it as 10 for the 10OFF promocode
+    if (!promoPrice) {
+      promoPrice = 10;
+    } else if (promoCode) {
+      promoPrice = promoPrice * 1;
+    }
+  } else if (promoCode != '') {
+    alert("Invalid Promo Code");
+    promoPrice = 0;
+  }
+  //If there is a promoPrice that has been set (it means there is a valid promoCode input) show promo
+  if (promoPrice) {
+    $('.summary-promo').removeClass('hide');
+    $('.promo-value').text(promoPrice.toFixed(2));
+    recalculateCart(true);
+  }
+});
+
+/* Recalculate cart */
+function recalculateCart(onlyTotal) {
+  var subtotal = 0;
+
+  /* Sum up row totals */
+  $('.basket-product').each(function() {
+    subtotal += parseFloat($(this).children('.subtotal').text());
+  });
+
+  /* Calculate totals */
+  var total = subtotal;
+
+  //If there is a valid promoCode, and subtotal < 10 subtract from total
+  var promoPrice = parseFloat($('.promo-value').text());
+  if (promoPrice) {
+    if (subtotal >= 10) {
+      total -= promoPrice;
+    } else {
+      alert('Order must be more than £10 for Promo code to apply.');
+      $('.summary-promo').addClass('hide');
+    }
+  }
+
+  /*If switch for update only total, update only total display*/
+  if (onlyTotal) {
+    /* Update total display */
+    $('.total-value').fadeOut(fadeTime, function() {
+      $('#basket-total').html(total.toFixed(2));
+      $('.total-value').fadeIn(fadeTime);
+    });
+  } else {
+    /* Update summary display. */
+    $('.final-value').fadeOut(fadeTime, function() {
+      $('#basket-subtotal').html(subtotal.toFixed(2));
+      $('#basket-total').html(total.toFixed(2));
+      if (total == 0) {
+        $('.checkout-cta').fadeOut(fadeTime);
+      } else {
+        $('.checkout-cta').fadeIn(fadeTime);
+      }
+      $('.final-value').fadeIn(fadeTime);
+    });
+  }
+}
+
+/* Update quantity */
+function updateQuantity(quantityInput) {
+  /* Calculate line price */
+  var productRow = $(quantityInput).parent().parent();
+  var price = parseFloat(productRow.children('.price').text());
+  var quantity = $(quantityInput).val();
+  var linePrice = price * quantity;
+
+  /* Update line price display and recalc cart totals */
+  productRow.children('.subtotal').each(function() {
+    $(this).fadeOut(fadeTime, function() {
+      $(this).text(linePrice.toFixed(2));
+      recalculateCart();
+      $(this).fadeIn(fadeTime);
+    });
+  });
+
+  productRow.find('.item-quantity').text(quantity);
+  updateSumItems();
+}
+
+function updateSumItems() {
+  var sumItems = 0;
+  $('.quantity input').each(function() {
+    sumItems += parseInt($(this).val());
+  });
+  $('.total-items').text(sumItems);
+}
+
+/* Remove item from cart */
+function removeItem(removeButton) {
+  /* Remove row from DOM and recalc cart total */
+  var productRow = $(removeButton).parent().parent();
+  productRow.slideUp(fadeTime, function() {
+    productRow.remove();
+    recalculateCart();
+    updateSumItems();
+  });
+}
+</script>
+</body>
+</html>

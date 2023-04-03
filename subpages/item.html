@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bag</title>
+    <link rel="icon" href="content/3.png" type="image/icon type">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- footer -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+ <!-- Optional theme -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ 
+ <!-- Latest compiled and minified JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+         crossorigin="anonymous" />
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+     <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+         href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Libre+Baskerville&family=Nanum+Gothic&family=Square+Peg&display=swap"
+         rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link
+         href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nanum+Gothic&family=Square+Peg&display=swap"
+         rel="stylesheet">
+     <!-- CSS only -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+         crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
+     <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+         crossorigin="anonymous"></script>
+     
+        <script src="navbar.js"></script>
+    
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 190px;
+    background: #12263a;
+}
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    margin-top: 2vw;
+    color: #ffc107;
+}
+.product-rating span{
+    
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new-price span{
+    font-family: 'Courier New', Courier, monospace;
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0;
+    list-style: none;
+    background: url("https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png") left center no-repeat;
+    background-size: 18px;
+    padding-left: 2.7rem;
+    padding: 1rem 2rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 1.3rem;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+    margin-top:1rem;
+}
+.purchase-info .btn:first-of-type{
+    background: #256eff;
+}
+.purchase-info .btn:last-of-type{
+    background: #f64749;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    background: #000;
+    border-color: transparent;
+    color: #fff;
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}
+
+
+
+/* navbar */
+
+#free_shipping,
+#free_returns {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+    height: 20px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1001;
+    width: 100%;
+}
+
+#free_shipping {
+    background-color: darkgray;
+    margin: 0px;
+    color: #041e3a;
+    top: 0px;
+}
+
+#free_returns {
+    background-color: #041e3a;
+    color: white;
+    top: 20px;
+}
+
+
+.d {
+    float: left;
+    overflow: hidden;
+}
+.d .d-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: inherit;
+    transition: 0.3s;
+}   
+
+.d-btn:hover {
+    border-bottom: 1px solid black;
+}
+
+
+
+.d-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    top: 50px;
+}
+
+.d:hover .d-content {
+    display: block;
+}
+
+.d-content{
+    background-color: rgba(255, 255, 255, 0.8);
+
+ }
+.column {
+    margin-top: 24px;
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 275px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 40px;
+    color: black;
+}
+
+.column a {
+    display: block;
+    float: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media(max-width: 1000px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#home {
+    font-size: 1.3em;
+    padding-right: 5vw;
+}
+
+.navbar {
+    position: sticky;
+    font-size: 10px;
+    /* position: absolute; */
+    z-index: 1001;
+    top: 0px;
+    margin-top: 40px;
+    /* background-color: white; */
+    background-color: black;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    color: white;
+    border-radius: 0;
+}
+
+#carouselExampleIndicators {
+    position: absolute;
+    height: 55vw;
+    top: 0;
+}
+
+.background_color {
+    background-color: rgb(255, 254, 254);
+    color: rgb(6, 6, 6);
+}
+
+.navbar img {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.navbar-brand {
+    margin: 0px 20px;
+    margin-right: 50px;
+    font-size: 2rem;
+    font-family: 'Aboreto', cursive;
+    padding-top: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.nav-link {
+    font-family: 'Aboreto', cursive;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.column img {
+    width: 20em;
+    height: 23em;
+}
+.navbar:hover{
+    background-color: white;
+}
+.column a{
+    text-decoration: none;
+}
+.column a:hover{
+    text-shadow: 1px 1px black;
+}
+.right-nav{
+    padding-right:2em;
+}
+.column a{
+    transition: 0.3s;
+}
+.column a:hover{
+    text-decoration: none;
+    color:black;
+}
+/* navbar end */
+
+</style>
+<body>
+    <!-- navigation bar -->
+  
+    <p id="free_shipping">
+        Free shipping on all orders
+    </p>
+    <p id="free_returns">
+        Free 30 Days Returns
+    </p>
+
+    <nav style="position:sticky;top:-10px" onmouseenter="func1()" onmouseleave="func2()" class="navbar navbar-expand-lg">
+        <!-- <div class="container"> -->
+        <a class="navbar-brand nav-link link-light" href="#">Sam Parkinson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item d">
+                    
+                    <a class="nav-link d-btn link-light" href="#">Women</a>
+                    <div class="d-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="women.html">
+                                    <h3>Veiw All</h3>
+                                </a>
+                                <a href="shoulderBag.html">Shoulder Bags</a>
+                                <a href="womenBags.html#slings">Slings</a>
+                                <a href="totes.html">Totes</a>
+                                <a href="womenBags.html#wallets">Walllets</a>
+                            </div>
+                            <div class="column">
+                                <a href="womenBags.html">
+                                    <h3>Women Essentials</h3>
+                                </a>
+                                <a href="women.html#second">Best Sellers</a>
+                                <a href="womenBags.html#trending">Trending</a>
+                                <a href="totes.html">Daily Usage</a>
+                            </div>
+                               <div class="column">
+                                   <center><img src="content/drop_down_women.webp" alt=""></center>
+                                   <a href="women.html">Women</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item d">
+                    <a class="nav-link d-btn link-light" href="#">Men</a>
+                    <div class="d-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="men.html">
+                                    <h3>Veiw All</h3>
+                                </a>
+                                <a href="men.html">Wallets</a>
+                                <a href="men.html">Man Slings</a>
+                                <a href="men.html">Back Packs</a>
+                                <a href="men.html">Computer Bags</a>
+                            </div>
+                            <div class="column">
+                                <a href="men.html">
+                                    <h3>Men Essentials</h3>
+                                </a>
+                                <a href="men.html">Best Sellers</a>
+                                <a href="men.html">Trending</a>
+                                <a href="men.html">Daily Usage</a>
+                            </div>
+                            <div class="column">
+                                <center><img src="content/drop_down_men.webp" alt=""></center>
+                                <a href="men.html">Men</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+                <li class="nav-item d">
+                    <a class="nav-link d-btn link-light" href="#">Special</a>
+                    <div class="d-content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="">
+                                    <h3>Veiw All</h3>
+                                </a>
+                                <a href="">Gift Packs</a>
+                                <a href="">Duo</a>
+                                <a href="">Sale</a>
+                                <a href="">End Of Season</a>
+                            </div>
+                            <div class="column">
+                                <a href=""><h3>Type/Material</h3></a>
+                                <a href="">Leathers</a>
+                                <a href="">Metal</a>
+                                <a href="">Satin</a>
+                                <a href="">Sparkle</a>
+                            </div>
+                            <div class="column">
+                                <center><img src="content/drop_down_gift.webp" alt=""></center>
+                                <a href="">Explore More</a>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li class="nav-item d">
+
+                        <a class="nav-link d-btn link-light" href="#">Sale</a>
+                        
+                    </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 right-nav">
+                <img onmouseover="func_search()" onmouseout="func_change()" id="search" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/search--v1.png" />
+                <img onmouseover="func_heart()" onmouseout="func_change()"id="heart" src="https://img.icons8.com/material-outlined/24/FFFFFF/like--v1.png" />
+               <a href="login.html"> <img onmouseover="func_user()" onmouseout="func_change()" id="user" src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/user.png" /></a>
+                <a href="cart.html"><img onmouseover="func_cart()" onmouseout="func_change()" id="cart" src="https://img.icons8.com/material-outlined/24/FFFFFF/shopping-cart--v1.png" /></a>
+            </form>
+        </div>
+        <!-- </div> -->
+    </nav>
+<!-- navbar end -->
+    <div class = "card-wrapper">
+        <div class = "card">
+          <!-- card left -->
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_lifestyle?$rl_df_pdp_5_7_lif$" alt = "shoe image">
+                <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate7?$rl_df_pdp_5_7$" alt = "shoe image">
+                <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate8?$rl_df_pdp_5_7$" alt = "shoe image">
+                <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate5?$rl_df_pdp_5_7$" alt = "shoe image">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a href = "#" data-id = "1">
+                  <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_lifestyle?$rl_df_pdp_5_7_lif$" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "2">
+                  <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate7?$rl_df_pdp_5_7$" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "3">
+                  <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate8?$rl_df_pdp_5_7$" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "4">
+                  <img src = "https://www.rlmedia.io/is/image/PoloGSI/s7-1452691_alternate5?$rl_df_pdp_5_7$" alt = "shoe image">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card right -->
+          <div class = "product-content">
+            <h2 class = "product-title">Monogram Jacquard Large Symone Tote Bag</h2>
+            
+            <div class = "product-rating">
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star-half-alt"></i>
+              <span>4.7(21)</span>
+            </div>
+      
+            <div class = "product-price">
+              <p class = "last-price"><span>$2578.00</span></p>
+              <p class = "new-price">Discounted Price: <span>$2499.00 (5%)</span></p>
+            </div>
+      
+            <div class = "product-detail">
+              <h2>about this item: </h2>
+              <p>Fashion meets function in the eye-catching Symone tote, which is artfully woven from a special jacquard fabric that showcases Lauren's signature monogram motif. Designed with a spacious silhouette and an array of pockets, this is the perfect go-to accessory, whether you're running errands or storing your work essentials.</p>
+              <p> It's embellished with supple full-grain leather trim, which is distinguished by its naturally smooth finish.</p>
+              <ul>
+                <li>Color: <span>Black | Brown</span></li>
+                <li>Available: <span>in stock</span></li>
+                <li>Category: <span>Bags</span></li>
+                <li>Shipping Area: <span>All over the world</span></li>
+                <li>Shipping Fee: <span>Free</span></li>
+              </ul>
+            </div>
+      
+            <div class = "purchase-info">
+              <input type = "number" min = "0" value = "1">
+              <button type = "button" class = "btn">
+                Add to Cart <i class = "fas fa-shopping-cart"></i>
+              </button>
+              <button type = "button" class = "btn">Compare</button>
+            </div>
+      
+            <div class = "social-links">
+              <p>Share At: </p>
+              <a href = "#">
+                <i class = "fab fa-facebook-f"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-twitter"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-instagram"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-whatsapp"></i>
+              </a>
+              <a href = "#">
+                <i class = "fab fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+<script>
+    const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);
+</script>
+
+    </body>
+</html>
